@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Products Course Project Presentation</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Data Products Course Project Presentation">
+  <meta name="author" content="João A. Silva">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/zenburn.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Data Products Course Project Presentation</h1>
+    <h2>GaltonApp - Height of the Child According on his Parents' Heights</h2>
+    <p>João A. Silva<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>This project was built as part of the course Developing Data Products course. The Developing Data Products course is part of the Coursera Data Sciene Specialization</p></li>
+<li><p>The app developed for the first part of the assignment is avalilable at: <a href="https://joaosilva.shinyapps.io/GaltonApp/">https://joaosilva.shinyapps.io/GaltonApp/</a></p></li>
+<li><p>Source code for ui.R and server.R files, as well the code for this presentation are available on the GitHub repo: <a href="https://github.com/joao-a-silva/DataProductsCourseProject">https://github.com/joao-a-silva/DataProductsCourseProject</a></p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Web Apllication Functionality</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>The site provides a tool for predict the height of the child according on his parents&#39; heights</p></li>
+<li><p>The predictions are made based on the GaltonFamilies dataset.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Galbon Dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The GaltonFamilies dataset available in R, and can be loaded with the code below:</li>
+</ul>
+
+<pre><code class="r">library(HistData)
+data(GaltonFamilies)
+</code></pre>
+
+<ul>
+<li>Some informations about the dataset:</li>
+</ul>
+
+<pre><code class="r">names(GaltonFamilies)
+</code></pre>
+
+<pre><code>## [1] &quot;family&quot;          &quot;father&quot;          &quot;mother&quot;          &quot;midparentHeight&quot;
+## [5] &quot;children&quot;        &quot;childNum&quot;        &quot;gender&quot;          &quot;childHeight&quot;
+</code></pre>
+
+<pre><code class="r">dim(GaltonFamilies)
+</code></pre>
+
+<pre><code>## [1] 934   8
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>The application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img width="100%" height ="110%" src="assets/img/app" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Overview'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Web Apllication Functionality'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Galbon Dataset'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The application'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

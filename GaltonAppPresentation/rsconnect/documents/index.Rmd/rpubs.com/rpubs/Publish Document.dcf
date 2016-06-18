@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/190487/e47371b23f8846989e191974952f5b9f
+bundleId: https://api.rpubs.com/api/v1/document/190487/e47371b23f8846989e191974952f5b9f
+url: http://rpubs.com/joaoasilva/190487
+when: 1466270663.0031
